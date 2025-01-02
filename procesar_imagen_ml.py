@@ -4,7 +4,7 @@ import tensorflow as tf
 from PIL import Image
 from io import BytesIO
 
-# Cargar el modelo preentrenado
+# Cargar el modelo pcdreentrenado
 model = tf.keras.applications.MobileNetV2(weights="imagenet")
 
 def procesar_imagen_ml(imagen):
